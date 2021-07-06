@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+/* common */
+html{
+  font-size: 100%;
+}
+body{
+  color: #333;
+  font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Meiryo", sans-serif;
+}
+img{
+  max-width: 100%;
+}
+a{
+  color: #333;
+}
+ul{
+  list-style: none;
+}
+
+/* custom */
+#mainvisual{
+  height: 100vh;
+  background-image: url(../img/road-bike-mainvisual.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 80px;
+}
+
+.text{
+  text-align: center;
+  margin-bottom: 80px;
+}
+.text .site-title{
+  margin-bottom: 20px;
+}
+.text .btn{
+  display: inline-block;
+  border: solid 1px black;
+  font-size: 0.8em;
+  padding: 18px 60px;
+  text-decoration: none;
+}
+
+.flex{
+  display:flex;
+  margin-bottom: 60px;
+  padding:0;
+}
+.flex li{
+  width: calc(100%/3);
+}
+.flex li img{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+footer{
+  font-size: 0.7em;
+  padding:20px;
+  text-align: center;
+}
+footer .sns{
+  display: flex;
+  margin-bottom: 20px;
+  padding: 0;
+  justify-content: center;
+}
+footer .sns li{
+  margin: 0 10px;
+}
+
+@media screen and (max-width:834px) {
+  .flex{
+    flex-direction: column;
+  }
+  .flex li {
+    width: 100%;
+  }
+}
