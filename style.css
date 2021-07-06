@@ -21,7 +21,7 @@ ul{
 /* custom */
 #mainvisual{
   height: 100vh;
-  background-image: url(../img/road-bike-mainvisual.jpg);
+  background-image: url(road-bike-mainvisual.jpg);
   background-size: cover;
   background-position: center;
   margin-bottom: 80px;
