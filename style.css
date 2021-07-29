@@ -79,4 +79,7 @@ footer .sns li{
   .flex li {
     width: 100%;
   }
+  #mainvisual{
+  height:50vh;
+  }
 }
